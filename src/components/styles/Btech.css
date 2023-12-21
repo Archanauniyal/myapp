@@ -1,0 +1,29 @@
+.jobtype1 img {
+    height:600px;
+    width: 100%;
+}
+.jobtype1 h1{
+    margin-left: 40rem;
+    font-size: 400;
+    font-weight: 600;
+}
+.jobtype1 h3 {
+    margin-left: 5rem;
+} 
+h4{
+    margin-left: 5rem;
+}
+.button{
+    margin-left: 5rem;
+    height: 2.5rem;
+    width: 10rem;
+    color: white;
+    background-color: rgb(46, 11, 245);
+    font-size: 800;
+    font-weight: 400;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:  rgb(104, 82, 228) ;
+}

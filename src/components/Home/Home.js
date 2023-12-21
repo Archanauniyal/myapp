@@ -1,18 +1,29 @@
 import React from 'react'
 import "../styles/Home.css"
 import Navbar from '../Navbar/Navbar'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Btech from '../Pages/Btech'
-import { useNavigate } from 'react-router-dom'
+
 export const Home = () => {
   const navigate = useNavigate()
-  const btech = () => {
-    console.log("arcgn")
-navigate("/btech")
-  }
+  const handleQualificationChange = (event) => {
+    const selectedValue = event.target.value;
+
+    if (selectedValue === "B.TECH") {
+      navigate("/btech");
+    } else if (selectedValue === "B.COM") {
+      navigate("/bcom");
+    } else if (selectedValue === "BCA") {
+      navigate("/bca");
+    } else if (selectedValue === "B.A") {
+      navigate("/ba");
+    }
+  };
+
   return (
 <>
 <Navbar/>
+
 <div className='topdiv'>
   <h1>JOB GENIE !<br></br>
     Find Your Types of Jobs.
@@ -47,13 +58,12 @@ navigate("/btech")
    </select>
    </label>
    <label>
-   <select className='input'>
+   <select className='input' onChange={handleQualificationChange}>
    <option>Qualification</option>
-
-    <option onClick={btech}>B.TECH</option>
-    {/* <option onclick={bcom}>B.COM</option>
-    <option onclick={bca}>BCA</option>
-    <option onclick={ba}>B.A</option> */}
+    <option value="B.TECH">B.TECH </option>
+    <option value="B.COM">B.COM</option>
+    <option value="BCA">BCA</option>
+    <option value="B.A">B.A</option>
    </select>
    </label>
   </form>
