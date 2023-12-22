@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from '../Navbar/Navbar'
 
 const Bcom = () => {
   return (
-    <div>Bcom</div>
+    <>
+    <Navbar/>
+    <div className='maindivbcom'>
+
+    </div>
+    </>
   )
 }
 

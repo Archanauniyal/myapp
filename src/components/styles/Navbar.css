@@ -1,6 +1,6 @@
 .Navbar{
  display: flex;
-background-color: #b9c1c4 ;
+background-color: #555497 ;
 color:rgb(17, 15, 15);
 justify-content: space-between;
  
@@ -17,5 +17,12 @@ justify-content: space-between;
     font-size: 20px;
     margin-right: 2rem;  
 }
-
+.link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.link:hover{
+    color: black;
+}
 
