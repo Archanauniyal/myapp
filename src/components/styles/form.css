@@ -37,16 +37,16 @@ background: linear-gradient(0deg, #4f80e2  0%, #15cdca 100%); */
     font-size: 70px;
 }
 .input{
-width: 100%;
+width: 26rem;
 background: white;
 border: none;
-padding: 15px 20px;
+padding: 15px 15px ;
 box-shadow: #c1bcc7 0px 10px 10px -5px;
 border-inline: 2px solid transparent;
 border-radius: 20px;
 margin-top: 2px;
-
-
+padding-left: 0rem;
+margin-right: 2rem;
 }
 .btn{
     height: 2.5rem;
@@ -56,6 +56,7 @@ margin-top: 2px;
     color: white;
     border: none;
     border-radius: 0.5rem;
+    cursor: pointer;
 }
 .btntext{
     display: flex;

@@ -3,25 +3,33 @@
     flex-direction: row;
 }
 .home img {
-    height: 1000;
-    width: 800px;
+    height: 40rem;
+    width: 59rem;
 }
 .hometext h1{
-   font-size: 5rem;
-   font-weight: 800;
-   margin-left: 11rem;
+   font-weight: 80px;
+   font-size: 65px;
+   margin-left: 2rem;
+
 }
 .hometext h2{
     color: #555497;
-    font-size: 3rem;
-   font-weight: 500;
-   margin-left: 11rem;
    margin-top: 1rem;
+   margin-left: 2rem;
   
 }
 .homebutton{
- 
-  display: flex;
-  flex-direction: row;
-align-items: center;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  height: 2.5rem;
+  width: 10rem;
+  background-color: #201e8b;;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+
+}
+.homebutton:hover{
+    background-color:  #44439a;
 }
