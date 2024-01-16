@@ -52,7 +52,7 @@ margin-right: 2rem;
     height: 2.5rem;
     width: 10rem;
     margin-left: 5rem;
-    background-color: #555497;
+    background-color: #201e8b;;
     color: white;
     border: none;
     border-radius: 0.5rem;
@@ -63,4 +63,7 @@ margin-right: 2rem;
     flex-direction: column;
     color: #19178d;
     
+}
+.btn:hover{
+    background-color: #3a3987;
 }

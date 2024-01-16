@@ -18,12 +18,15 @@
    margin-left: 2rem;
   
 }
+.hometext p{
+    margin-left: 2rem;
+}
 .homebutton{
   margin-left: 2rem;
   margin-top: 4rem;
   height: 2.5rem;
   width: 10rem;
-  background-color: #201e8b;;
+  background-color: #201e8b;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -32,4 +35,13 @@
 }
 .homebutton:hover{
     background-color:  #44439a;
+}
+
+@media screen  and (min-width: 500px) 
+{
+    .hometext h1{
+        font-size: 5.5rem;
+
+    }
+    
 }

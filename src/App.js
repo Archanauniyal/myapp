@@ -5,6 +5,7 @@ import Form from './components/Home/Form';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './components/Home/Home';
 import About from './components/Pages/About';
+import Contact from './components/Pages/Contact';
 import Btech from './components/Pages/Btech';
 import Bcom from  './components/Pages/Bcom';
 import Bca from   './components/Pages/Bca';
@@ -18,6 +19,7 @@ function App() {
   <Route path='/'element={<Home/>}></Route>
   <Route path='/form'element={<Form/>}></Route>
   <Route path='/About'element={<About/>}></Route>
+  <Route path='/Contact'element={<Contact/>}></Route>
   <Route path='/btech'element={<Btech/>}></Route>
   <Route path='/bcom'element={<Bcom/>}></Route>
   <Route path='/bca'element={<Bca/>}></Route>

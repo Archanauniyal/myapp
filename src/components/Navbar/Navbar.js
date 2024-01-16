@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Navbar.css"
 import pic1 from "../Images/logoremove.png"
 import { Link } from 'react-router-dom'
-import About from '../Pages/About'
+// import About from '../Pages/About'
 const Navbar = () => {
   return (
     <div className='Navbar'>
